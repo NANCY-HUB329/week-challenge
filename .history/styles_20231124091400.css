@@ -437,7 +437,7 @@ body * {
 .container-contact {
   background-color: hsl(227.59deg 28.16% 20.2%);
   height: 90vh;
-margin-bottom: 120px;
+
   padding-left: 120px;
 }
 .contact-content {
@@ -504,19 +504,7 @@ p {
 }
 .contact-content-bottom {
   display: flex;
-  flex-direction: column
-;
-justify-content: space-between;
-align-items: flex-start;
 }
-.contact-content-bottom  h2 ,p{
- 
-  color: black;
-}
-.contact-content-bottom-btn{
-padding:10px;
-}
-
 .contact-form .book_appointment_btn {
   padding: 20px;
   margin-top: 20px;
@@ -530,15 +518,9 @@ padding:10px;
   margin-right: auto;
   width: 80vw;
   background-color: #fff;
-  display: flex;
+  display: grid;
   grid-template-columns: repeat(5, 1fr);
-  margin-top: 90vh;
-}
-
-.footer-main
-{
-  display:grid;
-  grid-template-columns: repeat(5, 1fr);
+  margin-top: 70vh;
 }
 
 .footer .footer-main-info h2 {

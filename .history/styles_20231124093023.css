@@ -513,9 +513,6 @@ align-items: flex-start;
  
   color: black;
 }
-.contact-content-bottom-btn{
-padding:10px;
-}
 
 .contact-form .book_appointment_btn {
   padding: 20px;
@@ -535,11 +532,7 @@ padding:10px;
   margin-top: 90vh;
 }
 
-.footer-main
-{
-  display:grid;
-  grid-template-columns: repeat(5, 1fr);
-}
+
 
 .footer .footer-main-info h2 {
   margin-bottom: 2rem;
