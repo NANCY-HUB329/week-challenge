@@ -1,0 +1,447 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0deg 0% 98.04%);
+}
+body * {
+  font-family: "Montserrat", sans-serif;
+}
+.header {
+  background: url("./images/hero_img.png");
+
+  background-color: rgba(0, 0, 0, 0.27);
+  background-blend-mode: darken;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  justify-content: space-between;
+  position: relative;
+
+  /* background-color: rebeccapurple; */
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 20px;
+  gap: 30px;
+}
+
+.navbar-brand a {
+  font-size: 20px;
+  font-weight: 800;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-right-items {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: center;
+}
+#signup {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: hsl(201.66deg 87.23% 53.92%);
+  color: white;
+  font-weight: 500;
+  padding: 15px 10px;
+}
+.header-content {
+  text-align: center;
+  padding-top: 50px;
+}
+.header-content-title {
+  font-weight: 600;
+  font-size: 30px;
+  color: white;
+  padding-top: 0;
+  margin-top: 0;
+}
+.header-content-desc {
+  font-size: 20px;
+  color: white;
+  padding-top: 0;
+  margin-top: 0;
+}
+.header-quote-btn {
+  background-color: hsl(201.66deg 87.23% 53.92%);
+  border-radius: 50px;
+  padding: 10px 25px;
+  color: white;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+.header-learn-btn {
+  color: white;
+  font-weight: 500;
+  border-radius: 50px;
+  padding: 10px 25px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid white;
+}
+.header-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 25px;
+  padding-left: 200px;
+  padding-top: 80px;
+  margin-left: 5px;
+  margin-right: 60px;
+  position: absolute;
+}
+.header-bottom-content {
+  background-color: white;
+  height: 160px;
+  padding: 25px 65px 35px 40px;
+}
+.header-bottom-content ion-icon {
+  color: hsl(201.66deg 87.23% 53.92%);
+  font-size: 48px;
+}
+.header-bottom-content p {
+  color: gray;
+}
+#header-bottom-services {
+  background-color: hsl(201.66deg 87.23% 53.92%);
+  color: white;
+}
+#header-bottom-services p {
+  color: white;
+}
+#header-bottom-services ion-icon {
+  color: white;
+}
+.reviews {
+  margin-top: 250px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 120px 90px;
+  text-align: center;
+}
+.reviews-content svg {
+  font-size: 50px;
+}
+.reviews-content ion-icon {
+  color: hsl(201.66deg 87.23% 53.92%);
+  font-size: 50px;
+}
+.reviews-content p {
+  color: gray;
+}
+
+.main-description {
+  text-align: center;
+}
+.main-description p {
+  color: gray;
+}
+.testimonials {
+  text-align: center;
+
+  display: flex;
+
+  padding-left: 160px;
+  margin-right: 0;
+  margin-top: 45px;
+  gap: 40px;
+}
+.testimonials-content {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 25px 45px 35px 20px;
+  text-align: center;
+  margin-right: 0;
+}
+.testimonials-content img {
+  width: 150px;
+  height: 160px;
+  padding-left: 50px;
+  padding-bottom: 15px;
+}
+.testimonials-content p {
+  color: gray;
+}
+.testimonials-content ion-icon {
+  color: #ef9546;
+}
+.companies {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-right: 60px;
+  margin-left: 180px;
+  gap: 80px;
+  padding-bottom: 80px;
+  margin-top: 70px;
+}
+.companies img {
+  width: 100px;
+  height: 60px;
+}
+.subscription {
+  background: linear-gradient(
+    to right,
+    hsl(211.16deg 90.21% 28.04%),
+    hsl(322.78deg 81.66% 44.9%)
+  );
+  display: flex;
+
+  margin-left: 150px;
+  padding: 5px 25px 5px 80px;
+  align-items: flex-start;
+  margin-right: 160px;
+}
+.subscription h2 {
+  font-weight: 600;
+  color: white;
+}
+
+.subscription-form {
+  display: flex;
+  background-color: white;
+  margin: 30px 25px 30px 180px;
+}
+.subscription-form form {
+  display: flex;
+  justify-content: space-between;
+}
+.subscription-form input {
+  padding: 20px 125px 15px 20px;
+  border: none;
+  font-weight: 500;
+}
+.subscription-form button {
+  background-color: hsl(201.66deg 87.23% 53.92%);
+  border: none;
+  color: white;
+  padding: 0 20px;
+}
+.pricing {
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+.pricing-title {
+  text-align: center;
+}
+.pricing-title h1 {
+  font-weight: 900;
+  font-size: 30px;
+}
+.price-rates {
+  text-align: center;
+
+  display: flex;
+
+  padding-left: 160px;
+  margin-right: 0px;
+  margin-top: 155px;
+  
+  margin-left: 30px;
+}
+.price-rates-free {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0deg 0% 100%);
+  padding: 25px 30px 35px 40px;
+  text-align: center;
+  margin-right: 0;
+  border-radius: 20px;
+  border: 3px solid hsl(201.66deg 87.23% 53.92%);
+}
+.price-rates-free h1 {
+  font-weight: 600;
+}
+.price-rates-free p{
+  color:   gray;
+  font-weight:550;
+}
+.container-rates {
+  display: flex;
+  flex-direction: row;
+
+}
+.container-rates h2 {
+  padding-left: 70px;
+}
+
+.container-rates-wrap {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+.container-rates-wrap p {
+  color: hsl(201.66deg 87.23% 53.92%);
+  margin: 0;
+  font-weight: 500;
+  text-align: center;
+}
+.pricing-rates-desc-wrap p{
+  color: gray;
+  font-weight: 400;
+}
+.pricing-rate-btn{
+  color:white;
+  background-color: hsl(201.66deg 87.23% 53.92%); ;
+padding: 20px 25px;
+border: none;
+margin-top: 30px;
+font-weight: 700;
+}
+
+.price-rates-standard {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0deg 0% 100%);
+  padding: 25px 30px 35px 40px;
+  text-align: center;
+  margin-right: 0;
+  border-radius: 20px;
+  border: 3px solid hsl(201.66deg 87.23% 53.92%);
+}
+.price-rates-standard h1 {
+  font-weight: 600;
+}
+.price-rates-standard p{
+  color:   gray;
+  font-weight:550;
+}
+.container-rates {
+  display: flex;
+  flex-direction: row;
+
+}
+.container-rates h2 {
+  padding-left: 70px;
+}
+
+.container-rates-wrap {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+.container-rates-wrap p {
+  color: hsl(201.66deg 87.23% 53.92%);
+  margin: 0;
+  font-weight: 500;
+  text-align: center;
+}
+.pricing-rates-desc-wrap p{
+  color: gray;
+  font-weight: 400;
+}
+.pricing-rate-btn{
+  color:white;
+  background-color: hsl(201.66deg 87.23% 53.92%); ;
+padding: 20px 25px;
+border: none;
+margin-top: 30px;
+font-weight: 700;
+}
+.price-rates-premium {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0deg 0% 100%);
+  padding: 25px 30px 35px 40px;
+  text-align: center;
+  margin-right: 0;
+  border-radius: 20px;
+  border: 3px solid hsl(201.66deg 87.23% 53.92%);
+}
+.price-rates-premium h1 {
+  font-weight: 600;
+}
+.price-rates-free p{
+  color:   gray;
+  font-weight:550;
+}
+.container-rates {
+  display: flex;
+  flex-direction: row;
+
+}
+.container-rates h2 {
+  padding-left: 70px;
+}
+
+.container-rates-wrap {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+.container-rates-wrap p {
+  color: hsl(201.66deg 87.23% 53.92%);
+  margin: 0;
+  font-weight: 500;
+  text-align: center;
+}
+.pricing-rates-desc-wrap p{
+  color: gray;
+  font-weight: 400;
+}
+.pricing-rate-btn{
+  color:white;
+  background-color: hsl(201.66deg 87.23% 53.92%); ;
+padding: 20px 25px;
+border: none;
+margin-top: 30px;
+font-weight: 700;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+  .navbar div {
+    width: 100%;
+  }
+  .nav-links a {
+    flex: 1;
+  }
+  .nav-right-items {
+    justify-content: center;
+  }
+  .navbar-brand {
+    text-align: center;
+  }
+}
+/* Medium devices (landscape tablets, 601px and up) */
+@media only screen and (min-width: 601px) and (max-width: 1023px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+  .nav-links {
+    justify-content: flex-end;
+  }
+}
+/* large devices ( laptops and desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {
+}
